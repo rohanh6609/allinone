@@ -195,7 +195,7 @@ async def process_pwwp_subject(session: aiohttp.ClientSession, subject: Dict, se
 def find_pw_old_batch(batch_search):
 
     try:
-        response = requests.get(f"https://abhiguru143.github.io/AS-MULTIVERSE-PW/batch/batch.json")
+        response = requests.get(f"https://freeebatch.github.io/Data/batch.json")
         response.raise_for_status()
         data = response.json()
     except requests.exceptions.RequestException as e:
