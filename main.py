@@ -28,7 +28,7 @@ THREADPOOL = ThreadPoolExecutor(max_workers=1000)
 
 bot = Client("bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
-OWNER_ID = 7726207129
+OWNER_ID = 1671836568
 
 image_list = [
     "logo.jpg",
